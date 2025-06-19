@@ -10,7 +10,7 @@ import re
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple, Union, Set
 
-import _snowflake  # For interacting with Snowflake-specific APIs
+# import _snowflake  # For interacting with Snowflake-specific APIs
 import pandas as pd
 import streamlit as st  # Streamlit library for building the web app
 cnx = st.connection("snowflake")
