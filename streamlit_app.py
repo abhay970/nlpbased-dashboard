@@ -24,7 +24,7 @@ FEEDBACK_API_ENDPOINT = "/api/v2/cortex/analyst/feedback"
 API_TIMEOUT = 50000  # in milliseconds
 
 # Initialize a Snowpark session for executing queries
-session = get_active_session()
+# session = get_active_session()
 
 
 @st.cache_data(show_spinner=False)
