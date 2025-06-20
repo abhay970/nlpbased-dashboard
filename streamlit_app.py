@@ -40,7 +40,7 @@ def call_cortex_analyst_procedure(messages):
 def call_dremio_data_procedure(sql_statement):
     """Call the DREMIO_DATA_PROCEDURE and return Pandas DataFrame."""
     try:
-        session = get_active_session()
+        # session = get_active_session()
         df_result = session.call(DREMIO_PROCEDURE, sql_statement)
 
         # Convert Snowpark DataFrame to Pandas DataFrame
